@@ -56,7 +56,7 @@ jupyter lab
 ---
 ## Examples
 #### Actual returns versus Strategy returns
-![image]("Images\returns.png")
+![image](Images/returns.png)
 ---
 ## Contributors
 
