@@ -1,7 +1,9 @@
-## Application:
-You work as a risk management associate at Alphabet Soup, a venture capital firm. Alphabet Soup’s business team receives many funding applications from startups every day. This team has asked you to help them create a model that predicts whether applicants will be successful if funded by Alphabet Soup.
+# Machine Learning Trading Bot
 
-The business team has given you a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. With your knowledge of machine learning and neural networks, you decide to use the features in the provided dataset to create a binary classifier model that will predict whether an applicant will become a successful business. The CSV file contains a variety of information about these businesses, including whether or not they ultimately became successful.
+## Application:
+In this Challenge, you’ll assume the role of a financial advisor at one of the top five financial advisory firms in the world. Your firm constantly competes with the other major firms to manage and automatically trade assets in a highly dynamic environment. In recent years, your firm has heavily profited by using computer algorithms that can buy and sell faster than human traders.
+
+The speed of these transactions gave your firm a competitive advantage early on. But, people still need to specifically program these systems, which limits their ability to adapt to new data. You’re thus planning to improve the existing algorithmic trading systems and maintain the firm’s competitive advantage in the market. To do so, you’ll enhance the existing trading signals with machine learning algorithms that can adapt to new data.
 
 ---
 ## Technologies
@@ -10,6 +12,9 @@ In this challenge, you’ll use [Jupyter Lab](https://jupyterlab.readthedocs.io/
 
 
 * [pandas](https://pandas.pydata.org/docs/)
+* [Numpy](https://numpy.org/)
+* [hvPlot](https://hvplot.holoviz.org/)
+* [Matplotlibhttps://matplotlib.org/)
 
 * [scikit-learn](https://scikit-learn.org/stable/)
     * [scikit metrics](https://scikit-learn.org/stable/modules/model_evaluation.html) 
@@ -18,9 +23,7 @@ In this challenge, you’ll use [Jupyter Lab](https://jupyterlab.readthedocs.io/
     * [train test split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) 
 
     *  [Standard Scaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
-     [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
-* [TensorFlow](https://www.tensorflow.org/)
-* [Keras](https://keras.io/)
+    * [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)
 ---
 ## Installation Guide
 
@@ -34,18 +37,12 @@ conda activate dev
 ### 2. When the environment is active, run the following in your terminal to check if the scikit-learn, itensorflow and keras libraries are installed on your machine:
 ```
 conda list scikit-learn
-python -c "import tensorflow as tf;print(tf.__version__)"
-python -c "import tensorflow as tf;print(tf.keras.__version__)"
 ```
 ### If you see scikit-learn, itensorflow and keras listed in the terminal, you’re all set!
 
   ### 1. Install scikit-learn
 ```
 pip install -U scikit-learn
-```
-### 2. Install tensorflow
-```
- pip install --upgrade tensorflow
 ```
 
 ---
@@ -56,11 +53,11 @@ To use this application, simply clone the repository and open jupyter lab from g
 ```python
 jupyter lab
 ```
-
-
 ---
-
-
+## Examples
+#### Actual returns versus Strategy returns
+![image]("Images\returns.png")
+---
 ## Contributors
 
 Brought to you by Neha Jantre.
